@@ -9,6 +9,12 @@ datasets download genome accession GCF_000845245.1 --include gff3,rna,cds,protei
 datasets download virus genome taxon Betaherpesvirinae --include genome
 
 Make sure to include the dependencies in the code:
+import Bio
+import datasets
+import bowtie2
+import samtools
+import spades
+import blastn
 import os
 import argparse
 from Bio import SeqIO
