@@ -19,4 +19,4 @@ import os
 import argparse
 from Bio import SeqIO
 
-This was the documentation that includes what dependencies are needed to be installed to run your code.
+This was the documentation that includes what dependencies are needed to be installed to run the code as well as the files that were downloaded ro run this code.
