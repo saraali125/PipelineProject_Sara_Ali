@@ -7,3 +7,10 @@ I made a python script that produced a text tile with output named pipelineproje
 Then I searched the accession number for HCMV in genome assembly'. Then I clicked ‘datasets’ and found the code. This dataset was copied into the command and same method was used for problem 5.
 datasets download genome accession GCF_000845245.1 --include gff3,rna,cds,protein,genome,seq-report
 datasets download virus genome taxon Betaherpesvirinae --include genome
+
+Make sure to include the dependencies in the code:
+import os
+import argparse
+from Bio import SeqIO
+
+This was the documentation that includes what dependencies are needed to be installed to run your code.
